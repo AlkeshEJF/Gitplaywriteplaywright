@@ -1,0 +1,14 @@
+name: Mutile-line bash
+
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello GitHub Actions"
+  goodbye:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello bye"     
+  
